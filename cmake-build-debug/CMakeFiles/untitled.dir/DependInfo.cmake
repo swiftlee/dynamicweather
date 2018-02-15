@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "G:/Projects/dynamicweather/consts.cpp" "G:/Projects/dynamicweather/cmake-build-debug/CMakeFiles/untitled.dir/consts.cpp.obj"
-  "G:/Projects/dynamicweather/main.cpp" "G:/Projects/dynamicweather/cmake-build-debug/CMakeFiles/untitled.dir/main.cpp.obj"
+  "C:/Users/jmc18/CLionProjects/dynamicweather/consts.cpp" "C:/Users/jmc18/CLionProjects/dynamicweather/cmake-build-debug/CMakeFiles/untitled.dir/consts.cpp.obj"
+  "C:/Users/jmc18/CLionProjects/dynamicweather/main.cpp" "C:/Users/jmc18/CLionProjects/dynamicweather/cmake-build-debug/CMakeFiles/untitled.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

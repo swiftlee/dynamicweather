@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "G:\CLion 2017.3.3\bin\cmake\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2017.3.2\bin\cmake\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "G:\CLion 2017.3.3\bin\cmake\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = G:\Projects\dynamicweather
+CMAKE_SOURCE_DIR = C:\Users\jmc18\CLionProjects\dynamicweather
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = G:\Projects\dynamicweather\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\jmc18\CLionProjects\dynamicweather\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = G:\Projects\dynamicweather\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"G:\CLion 2017.3.3\bin\cmake\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -69,7 +69,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"G:\CLion 2017.3.3\bin\cmake\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start G:\Projects\dynamicweather\cmake-build-debug\CMakeFiles G:\Projects\dynamicweather\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\jmc18\CLionProjects\dynamicweather\cmake-build-debug\CMakeFiles C:\Users\jmc18\CLionProjects\dynamicweather\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start G:\Projects\dynamicweather\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\jmc18\CLionProjects\dynamicweather\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -110,17 +110,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named untitled
+# Target rules for targets named dynamicweather
 
 # Build rule for target.
-untitled: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 untitled
-.PHONY : untitled
+dynamicweather: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 dynamicweather
+.PHONY : dynamicweather
 
 # fast build rule for target.
-untitled/fast:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/build
-.PHONY : untitled/fast
+dynamicweather/fast:
+	$(MAKE) -f CMakeFiles\dynamicweather.dir\build.make CMakeFiles/dynamicweather.dir/build
+.PHONY : dynamicweather/fast
 
 consts.obj: consts.cpp.obj
 
@@ -128,7 +128,7 @@ consts.obj: consts.cpp.obj
 
 # target to build an object file
 consts.cpp.obj:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/consts.cpp.obj
+	$(MAKE) -f CMakeFiles\dynamicweather.dir\build.make CMakeFiles/dynamicweather.dir/consts.cpp.obj
 .PHONY : consts.cpp.obj
 
 consts.i: consts.cpp.i
@@ -137,7 +137,7 @@ consts.i: consts.cpp.i
 
 # target to preprocess a source file
 consts.cpp.i:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/consts.cpp.i
+	$(MAKE) -f CMakeFiles\dynamicweather.dir\build.make CMakeFiles/dynamicweather.dir/consts.cpp.i
 .PHONY : consts.cpp.i
 
 consts.s: consts.cpp.s
@@ -146,7 +146,7 @@ consts.s: consts.cpp.s
 
 # target to generate assembly for a file
 consts.cpp.s:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/consts.cpp.s
+	$(MAKE) -f CMakeFiles\dynamicweather.dir\build.make CMakeFiles/dynamicweather.dir/consts.cpp.s
 .PHONY : consts.cpp.s
 
 main.obj: main.cpp.obj
@@ -155,7 +155,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/main.cpp.obj
+	$(MAKE) -f CMakeFiles\dynamicweather.dir\build.make CMakeFiles/dynamicweather.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -164,7 +164,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles\dynamicweather.dir\build.make CMakeFiles/dynamicweather.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -173,7 +173,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles\dynamicweather.dir\build.make CMakeFiles/dynamicweather.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -182,8 +182,8 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
+	@echo ... dynamicweather
 	@echo ... edit_cache
-	@echo ... untitled
 	@echo ... rebuild_cache
 	@echo ... consts.obj
 	@echo ... consts.i

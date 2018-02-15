@@ -1,6 +1,10 @@
 cmake_minimum_required(VERSION 3.9)
-project(untitled)
+project(dynamicweather)
 
 set(CMAKE_CXX_STANDARD 17)
+set(CURLPPINCL ./lib/curlpp/include)
 
-add_executable(untitled main.cpp consts.cpp consts.h)
+include_directories(${CURLPPINCL})
+
+add_executable(dynamicweather main.cpp consts.cpp consts.h)
+target_link_libraries(dynamicweather curlpp)
