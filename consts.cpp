@@ -2,29 +2,29 @@
 // Created by Jon on 2/7/2018.
 //
 #include <string>
-#include "consts.h"
 
 /**************************
 * API-KEY AND LANG FORMAT *
 **************************/
-const std::string consts::apiKey = "0202eede3ce9293069ce0346a9778cd3";
-const std::string consts::appid = "&APPID=";
-const std::string consts::langId = "&lang={lang}";
+static const std::string apiKey = "0202eede3ce9293069ce0346a9778cd3";
+static const std::string appid = "&APPID=";
+static const std::string langId = "&lang={lang}";
 
 /*******************************
 * LOCATION FORMATS: CHOOSE ONE *
 ********************************/
 
-const std::string consts::name = "q={city}";
-const std::string consts::id = "id={id}";
-const std::string consts::geoCoords = "lat={lat}&lon={lon}";
-const std::string consts::zip = "zip={zip},{country code}";
+static const std::string name = "q={city}";
+static const std::string id = "id={id}";
+static const std::string geoCoords = "lat={lat}&lon={lon}";
+static const std::string zip = "zip={zip},{country code}";
 
 /***********
 * BASE URL *
 ***********/
 
-const std::string consts::url = "http://api.openweathermap.org/data/2.5/forecast?";
+static const std::string url = "http://api.openweathermap.org/data/2.5/forecast?";
+static const std::string host = "api.openweathermap.org";
 
 /******************************
  * Supported languages:       *
@@ -64,7 +64,7 @@ const std::string consts::url = "http://api.openweathermap.org/data/2.5/forecast
  * ****************************
  */
 
-const std::string consts::lang =
+static const std::string lang =
     "ar,bg,ca,cz,de,el,en,fa,fi,fr,gl,hr,hu,it,ja,kr,la,lt,mk,nl,pl,pt,ro,ru,se,sk,sl,es,tr,ua,vi,zh_cn,zh_tw";
 
 /*

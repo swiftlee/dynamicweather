@@ -6,5 +6,5 @@ set(CURLPPINCL ./lib/curlpp/include)
 
 include_directories(${CURLPPINCL})
 
-add_executable(dynamicweather main.cpp consts.cpp consts.h)
+add_executable(dynamicweather main.cpp consts.cpp)
 target_link_libraries(dynamicweather curlpp)
