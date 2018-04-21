@@ -44,54 +44,54 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "G:\CLion 2017.3.3\bin\cmake\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2017.3.2\bin\cmake\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "G:\CLion 2017.3.3\bin\cmake\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = G:\Projects\dynamicweather
+CMAKE_SOURCE_DIR = C:\Users\jmc18\CLionProjects\dynamicweather
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = G:\Projects\dynamicweather\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\jmc18\CLionProjects\dynamicweather\cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/untitled.dir
+# Target rules for target CMakeFiles/dynamicweather.dir
 
 # All Build rule for target.
-CMakeFiles/untitled.dir/all:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/depend
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=G:\Projects\dynamicweather\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target untitled"
-.PHONY : CMakeFiles/untitled.dir/all
+CMakeFiles/dynamicweather.dir/all:
+	$(MAKE) -f CMakeFiles\dynamicweather.dir\build.make CMakeFiles/dynamicweather.dir/depend
+	$(MAKE) -f CMakeFiles\dynamicweather.dir\build.make CMakeFiles/dynamicweather.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\jmc18\CLionProjects\dynamicweather\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target dynamicweather"
+.PHONY : CMakeFiles/dynamicweather.dir/all
 
 # Include target in all.
-all: CMakeFiles/untitled.dir/all
+all: CMakeFiles/dynamicweather.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/untitled.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start G:\Projects\dynamicweather\cmake-build-debug\CMakeFiles 3
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/untitled.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start G:\Projects\dynamicweather\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/untitled.dir/rule
+CMakeFiles/dynamicweather.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\jmc18\CLionProjects\dynamicweather\cmake-build-debug\CMakeFiles 3
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/dynamicweather.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\jmc18\CLionProjects\dynamicweather\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/dynamicweather.dir/rule
 
 # Convenience name for target.
-untitled: CMakeFiles/untitled.dir/rule
+dynamicweather: CMakeFiles/dynamicweather.dir/rule
 
-.PHONY : untitled
-
-# clean rule for target.
-CMakeFiles/untitled.dir/clean:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/clean
-.PHONY : CMakeFiles/untitled.dir/clean
+.PHONY : dynamicweather
 
 # clean rule for target.
-clean: CMakeFiles/untitled.dir/clean
+CMakeFiles/dynamicweather.dir/clean:
+	$(MAKE) -f CMakeFiles\dynamicweather.dir\build.make CMakeFiles/dynamicweather.dir/clean
+.PHONY : CMakeFiles/dynamicweather.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/dynamicweather.dir/clean
 
 .PHONY : clean
 
